@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url('img/fondo11111.jpg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #333;
+}
+
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1000px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.image-card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 15px;
+    width: 250px;
+    text-align: center;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.image-card img {
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+}
+
+.info {
+    padding: 15px;
+    flex-grow: 1;
+}
+
+.info h2 {
+    font-size: 1.5em;
+    margin: 0 0 10px 0;
+}
+
+.info p {
+    font-size: 1em;
+    margin: 0;
+}
+
